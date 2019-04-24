@@ -1,0 +1,88 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:minWidth="25px"
+    android:minHeight="25px">
+
+    <TextView
+        android:text="My calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblTitle"
+        android:autoText="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNumber1"
+        android:layout_marginLeft="0.0dp"
+        android:hint="Enter you first value...!!!"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNumber2"
+        android:layout_marginLeft="0.0dp"
+        android:hint="Enter you second value...!!!"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:layout_marginLeft="0.0dp"
+        android:hint="Result...!!!"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:text="Messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblMessage"
+        android:autoText="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="Sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmdSum"
+        android:textSize="18sp"/>
+
+    <Button
+        android:text="Sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmdSub"
+        android:textSize="18sp"/>
+
+    <Button
+        android:text="Mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmdMul"
+        android:textSize="18sp"/>
+
+    <Button
+        android:text="Div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cmdDiv"
+        android:textSize="18sp"/>
+
+</LinearLayout>
